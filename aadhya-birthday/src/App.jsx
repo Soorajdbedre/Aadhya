@@ -11,7 +11,7 @@ function App() {
 
   const chapterOneMemories = [
     {
-      photoUrl: "/public/images/image1.jpg",
+      photoUrl: "/images/image1.jpg",
       title: "The Beginning",
       hiddenText: "Do you remember the first day of PU? We were both so lost but found each other."
     },
