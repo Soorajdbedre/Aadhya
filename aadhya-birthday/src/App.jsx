@@ -16,7 +16,7 @@ function App() {
       hiddenText: "Do you remember the first day of PU? We were both so lost but found each other."
     },
     {
-      photoUrl: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=800&auto=format&fit=crop",
+      photoUrl: "/images/image2.jpg",
       title: "Canteen Diaries",
       hiddenText: "Countless hours spent talking about everything and nothing over cold coffee."
     },
