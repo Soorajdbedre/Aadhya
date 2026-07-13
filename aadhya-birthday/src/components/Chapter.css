@@ -1,0 +1,129 @@
+.chapter-section {
+  background-color: var(--color-cream);
+}
+
+.chapter-section.align-right {
+  background-color: var(--color-cream-dark);
+}
+
+.chapter-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 4rem auto;
+}
+
+.chapter-subtitle {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.chapter-title {
+  font-size: 3rem;
+  color: var(--color-brown);
+  margin-bottom: 1.5rem;
+}
+
+.chapter-description {
+  font-size: 1.1rem;
+  color: #66504a; /* Slightly lighter brown */
+}
+
+/* Grid for Memories */
+.memories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Flip Card Styles */
+.memory-card {
+  background-color: transparent;
+  height: 350px;
+  perspective: 1000px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.memory-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 30px rgba(62, 39, 35, 0.1);
+  border-radius: 12px;
+}
+
+.memory-card-inner.revealed {
+  transform: rotateY(180deg);
+}
+
+.memory-card-front, .memory-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.memory-card-front {
+  background-size: cover;
+  background-position: center;
+}
+
+.memory-card-gradient {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(to top, rgba(62,39,35,0.9), transparent);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  color: var(--color-cream);
+  text-align: left;
+}
+
+.memory-card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+}
+
+.memory-card-hint {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-gold-light);
+  opacity: 0.8;
+}
+
+.memory-card-back {
+  background-color: var(--color-terracotta);
+  color: var(--color-cream);
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 1px solid rgba(253, 251, 247, 0.2);
+}
+
+.memory-hidden-text {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .chapter-title {
+    font-size: 2.25rem;
+  }
+}
