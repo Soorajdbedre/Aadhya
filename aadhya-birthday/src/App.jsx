@@ -11,17 +11,17 @@ function App() {
 
   const chapterOneMemories = [
     {
-      photoUrl: "/images/image1.jpg",
+      photoUrl: "images/image1.jpg",
       title: "The Beginning",
       hiddenText: "Do you remember the first day of PU? We were both so lost but found each other."
     },
     {
-      photoUrl: "/images/image2.jpg",
+      photoUrl: "images/image2.jpg",
       title: "Canteen Diaries",
       hiddenText: "Countless hours spent talking about everything and nothing over cold coffee."
     },
     {
-      photoUrl: "https://images.unsplash.com/photo-1543807535-eceef0bc6599?q=80&w=800&auto=format&fit=crop",
+      photoUrl: "images/image3.jpg",
       title: "Late Night Studies",
       hiddenText: "Or should I say, late night gossiping while pretending to study for internals!"
     }
@@ -29,17 +29,17 @@ function App() {
 
   const chapterTwoMemories = [
     {
-      photoUrl: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=800&auto=format&fit=crop",
+      photoUrl: "images/image4.jpg",
       title: "Second PU Chaos",
       hiddenText: "The pressure was real, but having you by my side made it all manageable."
     },
     {
-      photoUrl: "https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop",
+      photoUrl: "images/image5.jpg",
       title: "Festivals & Fun",
       hiddenText: "Dressing up, dancing, and making the best memories together."
     },
     {
-      photoUrl: "https://images.unsplash.com/photo-1475721028070-2051152a4253?q=80&w=800&auto=format&fit=crop",
+      photoUrl: "images/image6.jpg",
       title: "Here's to Now",
       hiddenText: "I wouldn't trade our friendship for anything in the world. Happy Birthday Aadhya!"
     }
