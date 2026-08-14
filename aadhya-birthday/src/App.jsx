@@ -13,17 +13,17 @@ function App() {
     {
       photoUrl: "images/image1.jpg",
       title: "The Beginning",
-      hiddenText: "Do you remember the first day of PU? We were both so lost but found each other."
+      hiddenText: "Do you remember when the first time we started talking together."
     },
     {
       photoUrl: "images/image2.jpg",
       title: "Canteen Diaries",
-      hiddenText: "Countless hours spent talking about everything and nothing over cold coffee."
+      hiddenText: "The time we spent talking about nonsense was actually so fun."
     },
     {
       photoUrl: "images/image3.jpg",
-      title: "Late Night Studies",
-      hiddenText: "Or should I say, late night gossiping while pretending to study for internals!"
+      title: "Our First Hangout",
+      hiddenText: "This was the first time we hung out together and this was the time we actually got to know we have a lot in common."
     }
   ];
 
@@ -31,17 +31,17 @@ function App() {
     {
       photoUrl: "images/image4.jpg",
       title: "Second PU Chaos",
-      hiddenText: "The pressure was real, but having you by my side made it all manageable."
+      hiddenText: "The time spent with you was so much fun."
     },
     {
       photoUrl: "images/image5.jpg",
       title: "Festivals & Fun",
-      hiddenText: "Dressing up, dancing, and making the best memories together."
+      hiddenText: "Going to the forum and just messing around was the best time."
     },
     {
       photoUrl: "images/image6.jpg",
       title: "Here's to Now",
-      hiddenText: "I wouldn't trade our friendship for anything in the world. Happy Birthday Aadhya!"
+      hiddenText: "All those times I came with you in the bus to drop you and the time we spent in the bus stand, all of those were so much fun."
     }
   ];
 
