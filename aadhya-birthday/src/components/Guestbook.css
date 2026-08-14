@@ -60,7 +60,7 @@
 .form-group textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid rgba(62, 39, 35, 0.1);
+  border: 1px solid rgba(27, 42, 60, 0.12);
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.8);
   font-family: var(--font-body);
@@ -74,7 +74,7 @@
   outline: none;
   border-color: var(--color-gold);
   background-color: #fff;
-  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+  box-shadow: 0 0 0 3px rgba(44, 95, 138, 0.15);
 }
 
 .submit-btn {
@@ -102,7 +102,7 @@
   width: 6px;
 }
 .comments-list::-webkit-scrollbar-track {
-  background: rgba(62, 39, 35, 0.05);
+  background: rgba(27, 42, 60, 0.05);
   border-radius: 10px;
 }
 .comments-list::-webkit-scrollbar-thumb {
@@ -117,7 +117,7 @@
   background-color: #fff;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(62, 39, 35, 0.05);
+  box-shadow: 0 4px 12px rgba(27, 42, 60, 0.05);
   border-left: 4px solid var(--color-gold);
 }
 
