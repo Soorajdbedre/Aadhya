@@ -28,7 +28,7 @@
 
 .chapter-description {
   font-size: 1.1rem;
-  color: #66504a; /* Slightly lighter brown */
+  color: #3A5670; /* Slightly lighter navy */
 }
 
 /* Grid for Memories */
@@ -54,7 +54,7 @@
   text-align: center;
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
   transform-style: preserve-3d;
-  box-shadow: 0 10px 30px rgba(62, 39, 35, 0.1);
+  box-shadow: 0 10px 30px rgba(27, 42, 60, 0.12);
   border-radius: 12px;
 }
 
@@ -81,7 +81,7 @@
   position: absolute;
   bottom: 0; left: 0; right: 0;
   padding: 2rem 1.5rem;
-  background: linear-gradient(to top, rgba(62,39,35,0.9), transparent);
+  background: linear-gradient(to top, rgba(27,42,60,0.85), transparent);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -112,7 +112,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  border: 1px solid rgba(253, 251, 247, 0.2);
+  border: 1px solid rgba(247, 249, 251, 0.25);
 }
 
 .memory-hidden-text {
